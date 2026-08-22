@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class CheckPallindrome{
+class ReverseString{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a String : ");
@@ -10,11 +10,6 @@ class CheckPallindrome{
 		for(int i = str.length() -1; i >=0; i--){
 			reverse += str.charAt(i);
 		}
-		if(str.equals(reverse)){
-			System.out.println("The string '"+str+"' is a Palindrome");
-		}
-		else{
-			System.out.println("Not a Pallindrome");
-		}
+		System.out.println("Reversed String : " + reverse);
 	}
 }
