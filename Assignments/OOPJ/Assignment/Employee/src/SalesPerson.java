@@ -1,14 +1,11 @@
 public class SalesPerson extends Employee {
 
-    public SalesPerson(String name, String address, int age,
-                       boolean gender, float basicSalary) {
-
+    public SalesPerson(String name, String address, int age, boolean gender, float basicSalary) {
         super(name, address, age, gender, basicSalary);
     }
 
     @Override
     public void display() {
-
         System.out.println("\n======Sales Person=====");
 
         System.out.println("Name         : " + getName());
