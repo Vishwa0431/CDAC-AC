@@ -13,8 +13,7 @@ class Rectangle {
     }
 
     void printPerimeter() {
-        System.out.println("Perimeter of Rectangle: "
-                + (2 * (length + breadth)));
+        System.out.println("Perimeter of Rectangle: " + (2 * (length + breadth)));
     }
 }
 
