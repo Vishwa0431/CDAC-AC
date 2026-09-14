@@ -1,9 +1,8 @@
-import java.util.ArrayList;
-import java.util.Comparator;
-
 public class Program {
 
-    static ArrayList<Employee> employees = new ArrayList<Employee>();
+    static Employee[] employees = new Employee[100];
+
+    static int count = 0;
     
     public static void main(String[] args) {
     	
